@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["dslplot"]
+
+[project]
+name = "dslplot"
+version = "1.0.0"
+dependencies = [
+    "antlr4-python3-runtime>=4.13.1",
+    "matplotlib>=3.5.0",
+    "seaborn>=0.11.0"
+]
+description = "DSL for drawing graphs"
+readme = "README.md"
+requires-python = ">=3.13"
