@@ -1,9 +1,9 @@
 from antlr4 import *
 import matplotlib.pyplot as plt
 
-from dsplot.Gramar.generated.GraphPlotLexer import GraphPlotLexer
-from dsplot.Gramar.generated.GraphPlotParser import GraphPlotParser
-from dsplot.CodeGenerator import CodeGenerator
+from dslplot.Gramar.generated.GraphPlotLexer import GraphPlotLexer
+from dslplot.Gramar.generated.GraphPlotParser import GraphPlotParser
+from dslplot.CodeGenerator import CodeGenerator
 
 
 class Query:
